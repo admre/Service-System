@@ -1,14 +1,12 @@
 
 .container2  {
-    width: 90vw;
+    width: 100vw;
     height: 10vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 100rem;
     margin: 0 auto;
-    margin-top: 5%;
-    
 }
 /*UTIL*/
 
@@ -16,7 +14,7 @@
 .drpdwn {
     font-size: 1.5rem;
     padding: 1rem 0;
-    width: 20rem;
+    width: 30rem;
     text-align: center;
     border: 0.1rem solid #56a5eb;
     margin-bottom: 1rem;
@@ -43,7 +41,7 @@
 .txtbox {
     font-size: 1.5rem;
     padding: 1rem 0;
-    width: 20rem;
+    width: 15rem;
     text-align: center;
     border: 0.1rem solid #56a5eb;
     margin-bottom: 1rem;
@@ -63,40 +61,4 @@
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
-}
-
-
-
-
-
-.txtarea {
-    font-size: 1.5rem;
-    padding: 1rem 0;
-    width: 45rem;
-    height: 20rem;
-    text-align: center;
-    border: 0.1rem solid #56a5eb;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    resize: none;
-}
-
-.txtarea:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-}
-
-.txtarea[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
-
-.frm{
-position: relative;
-
 }

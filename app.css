@@ -46,6 +46,7 @@ h3 {
     font-size: 2rem;
     font-weight: 500;
     color: #56a5eb;
+    margin-left: 6rem;
 }
 
 
@@ -58,7 +59,7 @@ h3 {
     align-items: flex-start;
     max-width: 80rem;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .container> * {
