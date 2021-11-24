@@ -1,0 +1,64 @@
+
+.container2  {
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+/*UTIL*/
+
+/*Dropdown*/
+.drpdwn {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 30rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+}
+
+.drpdwn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.drpdwn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+
+.txtbox {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.txtbox:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.txtbox[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
