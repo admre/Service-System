@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="service.css"/>
 </head>
 <body>
-<form class="frm">
+<form id="requestform" class="frm">
     <div class="container2">
         <div id="servhome" class="flex-center flex-column">
             <h1>Service Request Form (服务申请表)</h1>
-            <label class ="lbl flex-center flex-column" for="cars">Department - 部门</label>
-            <select class="drpdwn" name="cars" id="cars">
+            <label class ="lbl flex-center flex-column" for="department">Department - 部门</label>
+            <select class="drpdwn" name="department" id="dept" required>
                 <option value="#">Select</option>
-                <option value="KF">Customer Service - 客服</option>
-                <option value="FK">Risk Control - 风控</option>
-                <option value="YY">Operations - 运营</option>
+                <option data-number="1" value="KF">Customer Service - 客服</option>
+                <option data-number="2" value="FK">Risk Control - 风控</option>
+                <option data-number="3" value="YY">Operations - 运营</option>
             </select>
-            <label class ="lbl" for="name ">Name - 名字</label>
-            <input class="txtbox" type="text" id="fname" name="fname">
+            <label class ="lbl" for="name">Name - 名字</label>
+            <input required class="txtbox" type="text" id="name" name="name">
         </div>
     </div>
    
@@ -31,9 +31,10 @@
             <label class="lbl" for="w3review">Problem - 问题</label>
             <textarea class="txtarea" id="prblm" rows="1" cols="50" wrap="physical" name="problem" ></textarea>
   <br><br>
-  <a class="btn" href="#">Submit - 提交</a>
+  <button type="submit" id="subreq"  class="btn" onclick="submitreq(event)">Submit - 提交</button>
         </div>
     </div>
 </form>
+<script src="requests.js"></script>
 </body>
 </html>
